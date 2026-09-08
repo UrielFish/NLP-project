@@ -1,0 +1,8 @@
+# Install torch (CPU build) separately first:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Then install the rest:
+#   pip install -r requirements.txt
+
+datasets==5.0.1
+scikit-learn==1.9.0
+torch==2.14.0+cpu
